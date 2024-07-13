@@ -61,4 +61,4 @@ The objective of this project was to delve deep into Real-Time Operating Systems
 To get started with this project, clone the repository and follow the instructions provided in the code comments to set up and run the project on your development board.
 
 ```bash
-git clone https://github.com/BoutrosMessiha2002/RTOS-Communicating-Tasks.git
+git clone https://github.com/BoutrosMessiha2002/FreeRTOS-task-communication.git
