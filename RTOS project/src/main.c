@@ -183,7 +183,7 @@ void ReceiverTask(void *pvParameters)
         if (xQueueReceive(xQueue, &message, 0) == pdPASS) {
             receivedMessages++;
             //FOR PRINTING RECEIVED MESSAGES
-            //printf("%s\n",message);
+            printf("%s\n",message);
         }
         xTimerStart(xReceiverTimer, 0);
     }
